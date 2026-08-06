@@ -1,54 +1,144 @@
-# React + TypeScript + Vite
+# 🐱 CatShop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern full-stack e-commerce website specializing in cats and cat accessories. Built with React, TypeScript, Vite, and modern frontend technologies, CatShop delivers a fast, responsive, and user-friendly shopping experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 Overview
 
-## Expanding the ESLint configuration
+CatShop is an online pet store where users can browse different cat breeds, explore pet products, and enjoy a clean, responsive interface.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+This project was developed to practice modern frontend development using React and TypeScript while following best practices in component-based architecture.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+---
+
+## ✨ Features
+
+- 🐱 Browse cat breeds
+- 🔍 Search products
+- 🛍️ Shopping cart
+- ❤️ Wishlist (Favorite products)
+- 📱 Responsive design
+- ⚡ Fast performance with Vite
+- 🎨 Modern UI
+- 📂 Category filtering
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+- React 18
+- TypeScript
+- Vite
+- CSS3
+
+### Development Tools
+
+- npm
+- ESLint
+- Git
+- GitHub
+- VS Code
+
+---
+
+## 📂 Project Structure
+
+```
+CatShop
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+│
+├── cats/
+├── package.json
+├── vite.config.ts
+├── tsconfig.json
+└── README.md
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Installation
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+Clone the repository
+
+```bash
+git clone https://github.com/Dangvanquyen/CatShop.git
 ```
+
+Go to project
+
+```bash
+cd CatShop
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run development server
+
+```bash
+npm run dev
+```
+
+Open your browser
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📸 Screenshots
+
+> Add your project screenshots here.
+
+Example:
+
+- Home Page
+- Product List
+- Product Detail
+- Shopping Cart
+
+---
+
+## 🎯 Future Improvements
+
+- User Authentication
+- Product Details Page
+- Shopping Cart Checkout
+- Online Payment
+- Product Reviews
+- Dark Mode
+- Admin Dashboard
+- REST API Integration
+- Database Support
+
+---
+
+## 📄 License
+
+This project is created for educational and portfolio purposes.
+
+---
+
+## 👨‍💻 Author
+
+**Dang Van Quyen**
+
+- GitHub: https://github.com/Dangvanquyen
+
+---
+
+⭐ If you like this project, don't forget to give it a Star!
