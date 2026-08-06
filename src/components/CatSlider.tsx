@@ -1030,7 +1030,7 @@ const CatSlider = () => {
       return Number((Math.random() * (max - min) + min).toFixed(2));
     };
 
-    const getRandomDescription = (name: string, category: string) => {
+    const getRandomDescription = (_name: string, category: string) => {
       const adjectives = [
         "Premium",
         "High-quality",
